@@ -1,0 +1,7 @@
+.objectSingle, .objectMultiple > ul > li {
+  display: flex;
+  flex-direction: row;
+}
+
+.objectMultiple {
+}

@@ -1,0 +1,11 @@
+\#*
+.\#*
+*~
+.direnv
+*.log
+server-build
+build
+debug
+dist
+node_modules
+public

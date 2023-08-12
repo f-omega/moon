@@ -1,0 +1,17 @@
+{ "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "target": "es5",
+    "outDir": "server-build",
+    "allowSyntheticDefaultImports": true,
+//    "module": "es6",
+    "paths": {
+      "@/*": ["./server/*"],
+      "@common/*": ["./common/*"]
+    },
+    "downlevelIteration": true
+  },
+  "include": [
+    "server",
+    "src/common"
+  ]
+}

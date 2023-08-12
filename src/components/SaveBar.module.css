@@ -1,0 +1,10 @@
+.savebar {
+  position: fixed;
+  bottom: 30px;
+  right: 10px;
+  padding: 1.5em 10em;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  z-index: 1000000000;
+}
